@@ -96,8 +96,8 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
                         </Skeleton>
                     </Box>
                     <Box>
-                        <Text fontWeight={"bold"}>Description:</Text>
-                        <Text>{nft.metadata.description}</Text>
+                        {/* <Text fontWeight={"bold"}>Description:</Text>
+                        <Text>{nft.metadata.description}</Text> */}
                     </Box>
                     <Box>
                         {/* <Text fontWeight={"bold"}>Traits:</Text>
